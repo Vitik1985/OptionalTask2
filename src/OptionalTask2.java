@@ -2,7 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class OptionalTask2 {
@@ -24,7 +23,7 @@ public class OptionalTask2 {
         }
         Collections.sort(array_number);
         for (int array : array_number) {
-            System.out.println(array);
+            System.out.println(array );
         }
     }
 
